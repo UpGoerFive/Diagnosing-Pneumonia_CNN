@@ -129,7 +129,10 @@ dmypy.json
 .pyre/
 
 # VS Code
-.vscode
+*.vscode
 
 # Mac files
-.DS_Store
+*.DS_Store
+
+# Image files
+*.jpeg
