@@ -21,6 +21,11 @@ The effectiveness of this classification model will be measured by how well it p
 - Are the two classes (Normal & Pneumonia) imbalanced or balanced?
 
 ## Data & Methods
+The dataset is divided into three folders: train, test, and val, with subfolders for each picture category (Pneumonia/Normal). There are 5,863 JPEG X-Ray pictures and two categories (Pneumonia/Normal).
+
+These chest X-ray pictures (anterior-posterior) were chosen from retrospective cohorts of children patients aged one to five years at Guangzhou Women and Children's Medical Center in Guangzhou. All chest X-ray imaging was done as part of the patients' regular clinical treatment.
+
+Before the analysis of chest x-ray pictures, all chest radiographs were first screened for quality control by deleting any scans that were of poor quality or were illegible. The picture diagnosis were then assessed by two professional physicians before being authorized for training the AI system. The assessment set was further reviewed by a third expert to account for any grading issues.
 
 ## Analysis Graphs
 
