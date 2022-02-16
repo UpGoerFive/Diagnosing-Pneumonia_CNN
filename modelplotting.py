@@ -48,5 +48,3 @@ def plot_models(models: list, test_location: str, save_file=None, sns_style='dar
 
     if save_file:
         plt.savefig(save_file)
-
-    return fig
