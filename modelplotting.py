@@ -17,3 +17,8 @@ def plot_models(models: list, plot_type='line', save_file=None):
 
     for model in models:
         ax.plot_func()
+
+    if save_file:
+        plt.savefig(save_file)
+
+    return fig
