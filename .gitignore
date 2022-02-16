@@ -143,3 +143,6 @@ dmypy.json
 *.hdf5
 *.ckpt
 *.pb
+
+# Logging files from Tensorboard
+*logs*
