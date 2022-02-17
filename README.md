@@ -35,7 +35,7 @@ Before the analysis of chest x-ray pictures, all chest radiographs were first sc
 - Discovered features related to PNEUMONIA status 
 
 ## Limitations 
--Gather more X-Ray Scans for our model to train on
+- Gather more X-Ray Scans for our model to train on
 
 ## Recommendations 
 - Increase awareness regarding the risk of Pneumonia 
