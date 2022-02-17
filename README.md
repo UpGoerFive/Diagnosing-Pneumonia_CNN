@@ -36,6 +36,8 @@ Before the analysis of chest x-ray pictures, all chest radiographs were first sc
 
 ## Limitations 
 
+- Gather more X-Ray Scans for our model to train on
+
 ## Recommendations 
 - Increase awareness regarding the risk of Pneumonia 
 - Implement our model to assist hospitals with Pneumonia detection for initial scans
