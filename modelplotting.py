@@ -22,7 +22,7 @@ def plot_models(models: list, test_location: str, save_file=None, sns_style='dar
 
     test_set = idg.flow_from_directory(test_location,
                                             target_size=(150, 150),
-                                            batch_size=20,
+                                            batch_size=32,
                                             class_mode='binary',
                                             color_mode='grayscale')
 
@@ -34,16 +34,24 @@ def plot_models(models: list, test_location: str, save_file=None, sns_style='dar
 
     xticklabels = [labels[name] for name in models] if labels else models
     accuracies = []
+    recalls = []
 
     for model in models:
         loaded_model = keras.models.load_model(model)
-        accuracies.append(loaded_model.evaluate(test_set)[1])
+        loss, accuracy, recall = loaded_model.evaluate(test_set)
+        accuracies.append(accuracy)
+        recalls.append(recall)
 
     sns.barplot(x=xticklabels, y=accuracies, palette=palette)
     ax.set(ylim=(0, 1))
     ax.set_xticklabels(ax.get_xticklabels(), rotation=45, horizontalalignment='right')
 
+    ax2 = ax.twinx()
+    sns.lineplot(x=xticklabels, y=recalls, linewidth=5, palette='r')
+    ax2.set_ylim((0.5,1))
+
     ax.set_ylabel('Accuracy Score')
+    ax2.set_ylabel('Recall Score')
     ax.set_title('Model Effectiveness');
 
     if save_file:
