@@ -1,6 +1,6 @@
 # Diagnosing-Pneumonia_CNN
 #### Github Repository: Click [here](https://github.com/grace-arina/Diagnosing-Pneumonia_CNN)
-#### Presentation: Click [here]()
+#### Presentation: Click [here](https://www.canva.com/design/DAE4b_Ol82I/VAxNFiW6s3_nfSV5Ehjdyg/edit)
 ##### Authors: Grace Wambui Arina, Nathaniel Martin, Olgert Hasko, Justin Sohn
 
 ![Header Image](images/headerimage.png)
@@ -19,7 +19,7 @@ Chest X-ray images (anterior-posterior) of the dataset were selected from retros
 The effectiveness of this classification model will be measured by how well it predicts the PNEUMONIA case and the Normal case.
 
 ## Analysis Questions 
-- Are the images for the chest X-rays are clear enough to build a model?
+- Are the images for the chest X-rays clear enough to build a model?
 - Are the two classes (Normal & Pneumonia) imbalanced or balanced?
 
 ## Data & Methods
@@ -31,14 +31,46 @@ Before the analysis of chest x-ray pictures, all chest radiographs were first sc
 
 ## Analysis Graphs
 
+### Model Effectiveness
+
+![Model Effectiveness Graph](images/modeleffectiveness.png)
+
+### Baseline
+
+![Baseline1 Graph](images/baseline1.png)
+
+![Baseline2 Graph](images/baseline2.png)
+
+### Image Augmentation
+
+![Image Augmentation1 Graph](images/imageaugmentation1.png)
+
+![Image Augmentation2 Graph](images/imageaugmentation2.png)
+
+### More Epochs and Convolutional Layers
+
+![Epochs1 Graph](images/epochs1.png)
+
+![Epochs2 Graph](images/epochs2.png)
+
+### Best Model
+- Uses Image Augmentation
+- Ran for 100 epochs
+- Test Accuracy of ~90%
+- Test Recall of ~98%
+
+You can scan this to check our best model in detail on TensorBoard 
+![Best Model Graph](images/bestmodel.png)
+
 ## Results & Evaluation
 - Improved ability to predict high accuracy to classify any Chest X-ray whether it is NORMAL or PNEUMONIA
 - Accuracy increased from 74% -> 90%
-- Discovered features related to PNEUMONIA status 
 
 ## Limitations 
+- Gather more X-Ray Scans to balance our data
+- Medical history to incorporate into our machine learning model for our predictions
 
-- Gather more X-Ray Scans for our model to train on
+![Limitations Graph](images/limitations.png)
 
 ## Recommendations 
 - Increase awareness regarding the risk of Pneumonia 
