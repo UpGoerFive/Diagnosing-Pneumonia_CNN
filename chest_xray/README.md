@@ -1,0 +1,3 @@
+# Data folder
+
+You can download kaggle data from [here](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia). We've manually increased our validation set with train images, so it's recommended to download the data from [here](https://drive.google.com/drive/folders/13rW4Ghf1Lh-UvDQg2jdr1tJslX4zcjaw?usp=sharing) in order to use the same file setup we have. If that doesn't work, you can diff against the tree text file in this directory to figure our what needs to be moved in the kaggle order
