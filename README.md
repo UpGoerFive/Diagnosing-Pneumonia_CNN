@@ -101,11 +101,11 @@ Please contact the contributors to this analysis:
 
 **Repository Structure:**
 ```
-├── chest_xray                             <- Team Member's individual notebooks 
-├── images                                 <- Both sourced externally and generated from code 
-├── modeling-notebooks                     <- Both sourced externally and generated from code 
+├── chest_xray                             <- Data sourced externally and generated from code 
+├── images                                 <- Images sourced externally and generated from code 
+├── modeling-notebooks                     <- Notebooks on modeling 
 ├── .gitignore                             <- gitignore 
-├── Final_Notebook.ipynb                   <- Supplementary documentation of gridsesarching optimal parameters
-├── README.md                              <- Supplementary documentation of gridsesarching optimal parameters using SMOTE
-├── modelplotting.py                       <- The top-level README for reviewers of this project
-└── tf_board_plotting.ipynb                <- Narrative documentation of analysis in Jupyter notebook
+├── Final_Notebook.ipynb                   <- Narrative documentation of analysis in Jupyter notebook
+├── README.md                              <- The top-level README for reviewers of this project
+├── modelplotting.py                       <- 
+└── tf_board_plotting.ipynb                <- Train-Validation plots for the presentation
