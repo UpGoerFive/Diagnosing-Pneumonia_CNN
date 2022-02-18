@@ -100,6 +100,16 @@ Please contact the contributors to this analysis:
 [Justin Sohn](https://www.linkedin.com/in/justin-sohn-689901193/) 
 
 **Repository Structure:**
-``` 
+```
+├── data preprocessing                     <- Team Member's individual notebooks 
+├── data                                   <- Both sourced externally and generated from code 
+├── images                                 <- Both sourced externally and generated from code 
+├── .gitignore                             <- gitignore 
+├── GridSearch.ipynb                       <- Supplementary documentation of gridsesarching optimal parameters
+├── GridSearchSMOTE.ipynb                  <- Supplementary documentation of gridsesarching optimal parameters using SMOTE
+├── README.md                              <- The top-level README for reviewers of this project
+├── index.ipynb                            <- Narrative documentation of analysis in Jupyter notebook
+└── presentation.pdf                       <- PDF version of project presentation
+
 
 
