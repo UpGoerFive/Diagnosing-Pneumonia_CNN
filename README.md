@@ -33,25 +33,25 @@ Before the analysis of chest x-ray pictures, all chest radiographs were first sc
 
 ### Model Effectiveness
 
-![Model Effectiveness Graph](images/modeleffectiveness.png)
+![Model Effectiveness Graph](images/presentation_plots/modeleffectiveness.png)
 
 ### Baseline
 
-![Baseline1 Graph](images/baseline1.png)
+![Baseline1 Graph](images/presentation_plots/baseline1.png)
 
-![Baseline2 Graph](images/baseline2.png)
+![Baseline2 Graph](images/presentation_plots/baseline2.png)
 
 ### Image Augmentation
 
-![Image Augmentation1 Graph](images/imageaugmentation1.png)
+![Image Augmentation1 Graph](images/presentation_plots/imageaugmentation1.png)
 
-![Image Augmentation2 Graph](images/imageaugmentation2.png)
+![Image Augmentation2 Graph](images/presentation_plots/imageaugmentation2.png)
 
 ### More Epochs and Convolutional Layers
 
-![Epochs1 Graph](images/epochs1.png)
+![Epochs1 Graph](images/presentation_plots/epochs1.png)
 
-![Epochs2 Graph](images/epochs2.png)
+![Epochs2 Graph](images/presentation_plots/epochs2.png)
 
 ### Best Model
 - Uses Image Augmentation
@@ -61,7 +61,7 @@ Before the analysis of chest x-ray pictures, all chest radiographs were first sc
 
 You can scan this to check our best model in detail on TensorBoard 
 
-![Best Model Graph](images/bestmodel.png)
+![Best Model Graph](images/presentation_plots/bestmodel.png)
 
 ## Results & Evaluation
 - Improved ability to predict high accuracy to classify any Chest X-ray whether it is NORMAL or PNEUMONIA
@@ -71,7 +71,7 @@ You can scan this to check our best model in detail on TensorBoard
 - Gather more X-Ray Scans to balance our data
 - Medical history to incorporate into our machine learning model for our predictions
 
-![Limitations Graph](images/limitations.png)
+![Limitations Graph](images/presentation_plots/limitations.png)
 
 ## Recommendations 
 - Increase awareness regarding the risk of Pneumonia 
