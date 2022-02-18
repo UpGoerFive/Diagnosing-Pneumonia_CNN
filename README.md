@@ -107,5 +107,5 @@ Please contact the contributors to this analysis:
 ├── .gitignore                             <- gitignore 
 ├── Final_Notebook.ipynb                   <- Narrative documentation of analysis in Jupyter notebook
 ├── README.md                              <- The top-level README for reviewers of this project
-├── modelplotting.py                       <- 
+├── modelplotting.py                       <- Functions used for model plotting
 └── tf_board_plotting.ipynb                <- Train-Validation plots for the presentation
