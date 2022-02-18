@@ -1,6 +1,6 @@
 # Diagnosing-Pneumonia_CNN
-#### Github Repository: Click [here](https://github.com/grace-arina/Diagnosing-Pneumonia_CNN)
-#### Presentation: Click [here](https://www.canva.com/design/DAE4b_Ol82I/VAxNFiW6s3_nfSV5Ehjdyg/edit)
+##### Github Repository: Click [here](https://github.com/grace-arina/Diagnosing-Pneumonia_CNN)
+##### Presentation: Click [here](https://www.canva.com/design/DAE4b_Ol82I/VAxNFiW6s3_nfSV5Ehjdyg/edit)
 ##### Authors: Grace Wambui Arina, Nathaniel Martin, Olgert Hasko, Justin Sohn
 
 ![Header Image](images/headerimage.png)
