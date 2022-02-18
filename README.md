@@ -32,22 +32,34 @@ Before the analysis of chest x-ray pictures, all chest radiographs were first sc
 ## Analysis Graphs
 
 ### Model Effectiveness
+-  Recall since false negative is bad
+-  Recall is unreasonably high for the first few models
+-  Big accuracy gains are achieved with image augmentation
 
 ![Model Effectiveness Graph](images/presentation_plots/modeleffectiveness.png)
 
 ### Baseline
+- A basic convolutional network and trains on the normal images
+- Run for 30 epochs
+- Overfits very quickly
 
 ![Baseline1 Graph](images/presentation_plots/baseline1.png)
 
 ![Baseline2 Graph](images/presentation_plots/baseline2.png)
 
 ### Image Augmentation
+- It is an extra convolutional layer
+- Image augmentation with rotation, zoom, and stretching
+- Run for 30 epochs
 
 ![Image Augmentation1 Graph](images/presentation_plots/imageaugmentation1.png)
 
 ![Image Augmentation2 Graph](images/presentation_plots/imageaugmentation2.png)
 
 ### More Epochs and Convolutional Layers
+- Even more convolutional layers
+- Trains on augmented data
+- Run for 30 epochs
 
 ![Epochs1 Graph](images/presentation_plots/epochs1.png)
 
@@ -59,7 +71,7 @@ Before the analysis of chest x-ray pictures, all chest radiographs were first sc
 - Test Accuracy of ~90%
 - Test Recall of ~98%
 
-You can scan this to check our best model in detail on TensorBoard 
+You can scan this to check our best model in detail on TensorBoard or Click [here](https://tensorboard.dev/experiment/0K1t8rFYTWG06klkGIkjWQ/#scalars)
 
 ![Best Model Graph](images/presentation_plots/bestmodel.png)
 
