@@ -60,6 +60,7 @@ Before the analysis of chest x-ray pictures, all chest radiographs were first sc
 - Test Recall of ~98%
 
 You can scan this to check our best model in detail on TensorBoard 
+
 ![Best Model Graph](images/bestmodel.png)
 
 ## Results & Evaluation
