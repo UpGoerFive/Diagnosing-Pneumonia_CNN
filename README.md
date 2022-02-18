@@ -1,4 +1,6 @@
 # Diagnosing-Pneumonia_CNN
+#### Github Repository: Click ([here]())
+#### Presentation: Click ([here]())
 ##### Authors: Grace Wambui Arina, Nathaniel Martin, Olgert Hasko, Justin Sohn
 
 ![Header Image](images/headerimage.png)
@@ -31,7 +33,7 @@ Before the analysis of chest x-ray pictures, all chest radiographs were first sc
 
 ## Results & Evaluation
 - Improved ability to predict high accuracy to classify any Chest X-ray whether it is NORMAL or PNEUMONIA
-- Accuracy increased from % -> %
+- Accuracy increased from 74% -> 90%
 - Discovered features related to PNEUMONIA status 
 
 ## Limitations 
