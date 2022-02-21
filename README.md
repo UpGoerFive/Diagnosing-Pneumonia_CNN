@@ -1,7 +1,7 @@
 # Diagnosing-Pneumonia_CNN
 ##### Github Repository: Click [here](https://github.com/grace-arina/Diagnosing-Pneumonia_CNN)
 ##### Presentation: Click [here](https://www.canva.com/design/DAE4b_Ol82I/VAxNFiW6s3_nfSV5Ehjdyg/edit)
-##### Authors: Grace Wambui Arina, Nathaniel Martin, Olgert Hasko, Justin Sohn
+##### Authors: Grace Arina, Nathaniel Martin, Olgert Hasko, Justin Sohn
 
 ![Header Image](images/headerimage.png)
 
@@ -94,7 +94,7 @@ You can scan this to check our best model in detail on TensorBoard or Click [her
 
 #### For more information
 Please contact the contributors to this analysis: 
-[Grace Wambui Arina](https://www.linkedin.com/in/grace-arina/) |
+[Grace Arina](https://www.linkedin.com/in/grace-arina/) |
 [Nathaniel Martin](https://www.linkedin.com/in/nathaniel-martin-73b037227/) |
 [Olgert Hasko](https://www.linkedin.com/in/olgert-hasko-47519097/) |
 [Justin Sohn](https://www.linkedin.com/in/justin-sohn-689901193/) 
